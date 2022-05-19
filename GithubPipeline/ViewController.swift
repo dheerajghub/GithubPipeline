@@ -9,11 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - PROPERTIES
+    
+    
+    // MARK: - MAIN
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupViews()
+        setupConstraints()
     }
-
+    
+    // MARK: - FUNTIONS
+    
+    func setupViews(){
+        view.backgroundColor = .red
+    }
+    
+    func setupConstraints(){
+        
+    }
 
 }
 
