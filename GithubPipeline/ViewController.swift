@@ -11,6 +11,14 @@ class ViewController: UIViewController {
 
     // MARK: - PROPERTIES
     
+    let titleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textColor = .white
+        label.text = "Demo Label"
+        label.font = .systemFont(ofSize: 20, weight: .bold)
+        return label
+    }()
     
     // MARK: - MAIN
     
@@ -23,11 +31,15 @@ class ViewController: UIViewController {
     // MARK: - FUNTIONS
     
     func setupViews(){
-        view.backgroundColor = .blue
+        view.backgroundColor = .black
+        view.addSubview(titleLabel)
     }
     
     func setupConstraints(){
-        
+        NSLayoutConstraint.activate([
+            titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            titleLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
     }
 
 }
