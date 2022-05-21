@@ -16,11 +16,7 @@ jobs:
     - name: List available Xcode versions
       run: ls /Applications | grep Xcode
     - name: Decrypt large secret
-      run: | 
-          if [ "$PROVISIONING_PASSWORD" == "123123" ]
-          then 
-            echo "Got Secret"
-          fi
+      run: ./provisioning/import_provisioning.sh
       env:
         PROVISIONING_PASSWORD: ${{ secrets.PROVISIONING_PASSWORD }}
     - name: Select Xcode
