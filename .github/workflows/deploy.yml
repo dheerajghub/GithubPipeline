@@ -18,7 +18,7 @@ jobs:
     - name: Decrypt large secret
       run: ./provisioning/import_provisioning.sh
       env:
-        PROVISIONING_PASSWORD: ${{ secrets.provisioning_password }}
+        PROVISIONING_PASSWORD: ${{ secrets.PROVISIONING_PASSWORD }}
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_13.3.app && /usr/bin/xcodebuild -version
     - name: Build archive
