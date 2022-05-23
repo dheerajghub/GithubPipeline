@@ -16,7 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		441C2467283B87E7009DE188 /* demo.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mobileprovision; sourceTree = "<group>"; };
 		444074AD2836649E000E1748 /* GithubPipeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubPipeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		444074B02836649E000E1748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		444074B22836649E000E1748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,7 +59,6 @@
 				444074B02836649E000E1748 /* AppDelegate.swift */,
 				444074B22836649E000E1748 /* SceneDelegate.swift */,
 				444074B42836649E000E1748 /* ViewController.swift */,
-				441C2467283B87E7009DE188 /* demo.mobileprovision */,
 				444074BC2836649F000E1748 /* Assets.xcassets */,
 				444074BE2836649F000E1748 /* LaunchScreen.storyboard */,
 				444074C12836649F000E1748 /* Info.plist */,
@@ -325,7 +323,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.3embed.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Demo;
+				PROVISIONING_PROFILE_SPECIFIER = DemoApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
