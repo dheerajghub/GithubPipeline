@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+      <key>provisioningProfiles</key>
+      <dict>
+        <key>com.3embed.demo</key>
+        <string>d76b2154-9e71-4c9c-9023-07186e914a16</string>
+      </dict>
+      <key>signingCertificate</key>
+      <string>Apple Development: Rahul Sharma (N7747TE9BM)</string>
+      <key>signingStyle</key>
+      <string>manual</string>
+      <key>teamID</key>
+      <string>5A693V6KR5</string>
+  </dict>
+</plist>
