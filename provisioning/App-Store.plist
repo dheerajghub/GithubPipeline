@@ -5,10 +5,10 @@
       <key>provisioningProfiles</key>
       <dict>
         <key>com.3embed.demo</key>
-        <string>d76b2154-9e71-4c9c-9023-07186e914a16</string>
+        <string>a2907159-7629-4714-9e53-083b6b5a6a84</string>
       </dict>
       <key>signingCertificate</key>
-      <string>Apple Development: Rahul Sharma (N7747TE9BM)</string>
+      <string>Apple Distribution: 3Embed Software Technologies private limited (5A693V6KR5)</string>
       <key>signingStyle</key>
       <string>manual</string>
       <key>teamID</key>
