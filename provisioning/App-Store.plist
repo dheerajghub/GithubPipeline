@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>compileBitcode</key>
-	<true/>
-	<key>iCloudContainerEnvironment</key>
-	<string>Production</string>
-	<key>method</key>
-	<string>app-store</string>
-	<key>teamID</key>
-	<string>5A693V6KR5</string>
-	<key>uploadBitcode</key>
-	<true/>
-	<key>uploadSymbols</key>
-	<true/>
-</dict>
+    <dict>
+      <key>provisioningProfiles</key>
+      <dict>
+        <key>com.3embed.demo</key>
+        <string>f5efc2ff-a0c0-4b61-8cdd-bb5c1fcf4dec</string>
+      </dict>
+      <key>signingCertificate</key>
+      <string>Apple Development: Rahul Sharma(N7747TE9BM)</string>
+      <key>signingStyle</key>
+      <string>manual</string>
+      <key>teamID</key>
+      <string>5A693V6KR5</string>
+  </dict>
 </plist>
