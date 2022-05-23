@@ -24,7 +24,6 @@
 		444074BC2836649F000E1748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		444074BF2836649F000E1748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		444074C12836649F000E1748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44701E4C283BB60E006050D5 /* demo.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mobileprovision; path = ../../../../Downloads/demo.mobileprovision; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +58,6 @@
 			children = (
 				444074B02836649E000E1748 /* AppDelegate.swift */,
 				444074B22836649E000E1748 /* SceneDelegate.swift */,
-				44701E4C283BB60E006050D5 /* demo.mobileprovision */,
 				444074B42836649E000E1748 /* ViewController.swift */,
 				444074BC2836649F000E1748 /* Assets.xcassets */,
 				444074BE2836649F000E1748 /* LaunchScreen.storyboard */,
@@ -308,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A693V6KR5;
@@ -325,7 +323,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.3embed.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = demo2;
+				PROVISIONING_PROFILE_SPECIFIER = demo;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
