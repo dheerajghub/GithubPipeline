@@ -7,11 +7,17 @@
         <key>com.3embed.demo</key>
         <string>a2907159-7629-4714-9e53-083b6b5a6a84</string>
       </dict>
+      <key>method</key>
+	  <string>app-store</string>
       <key>signingCertificate</key>
       <string>Apple Distribution: 3Embed Software Technologies private limited (5A693V6KR5)</string>
       <key>signingStyle</key>
       <string>manual</string>
       <key>teamID</key>
       <string>5A693V6KR5</string>
+      <key>uploadBitcode</key>
+      <true/>
+      <key>uploadSymbols</key>
+      <true/>
   </dict>
 </plist>
